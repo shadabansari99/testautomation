@@ -1,0 +1,43 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "ekam.example.api",
+    "children" : [ {
+      "name" : "UserTests",
+      "children" : [ {
+        "name" : "shouldReturnSingleUser",
+        "uid" : "7de88ccff18b56e1",
+        "parentUid" : "f6d05679c767e4619bb9d8a5cad7808c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1664359103907,
+          "stop" : 1664359104925,
+          "duration" : 1018
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f6d05679c767e4619bb9d8a5cad7808c"
+    }, {
+      "name" : "CreateUser.CreateUserTests",
+      "children" : [ {
+        "name" : "shouldCreateUser",
+        "uid" : "aa3144f8469a0576",
+        "parentUid" : "04a204f9698bdec65b68cc6d5294fc65",
+        "status" : "passed",
+        "time" : {
+          "start" : 1664359103907,
+          "stop" : 1664359105900,
+          "duration" : 1993
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "CreateUser.CreateUserTests"
+    } ],
+    "uid" : "ekam.example.api"
+  } ]
+}

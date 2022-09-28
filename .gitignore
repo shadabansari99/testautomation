@@ -7,8 +7,8 @@ build/
 .vscode/
 bin/
 .project
-allure-report/
-allure-results/
+#allure-report/
+#allure-results/
 .allure/
 .DS_Store
 .classpath

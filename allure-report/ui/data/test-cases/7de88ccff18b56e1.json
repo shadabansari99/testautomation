@@ -1,0 +1,160 @@
+{
+  "uid" : "7de88ccff18b56e1",
+  "name" : "shouldReturnSingleUser",
+  "fullName" : "ekam.example.api.UserTests.shouldReturnSingleUser",
+  "historyId" : "f66a0375878e8b81dd99ea9f94dc7290",
+  "time" : {
+    "start" : 1664359103907,
+    "stop" : 1664359104925,
+    "duration" : 1018
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initTest",
+    "time" : {
+      "start" : 1664359103278,
+      "stop" : 1664359103694,
+      "duration" : 416
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "onStart",
+    "time" : {
+      "start" : 1664359103203,
+      "stop" : 1664359103212,
+      "duration" : 9
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When  I invoke getSingleUser API",
+      "time" : {
+        "start" : 1664359104913,
+        "stop" : 1664359104914,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "keyword",
+        "value" : "When"
+      }, {
+        "name" : "persona",
+        "value" : ""
+      }, {
+        "name" : "description",
+        "value" : "I invoke getSingleUser API"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "ekamAPITearDown",
+    "time" : {
+      "start" : 1664359104941,
+      "stop" : 1664359104943,
+      "duration" : 2
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "onFinish",
+    "time" : {
+      "start" : 1664359105932,
+      "stop" : 1664359105933,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ekam.example.api.UserTests"
+  }, {
+    "name" : "testClass",
+    "value" : "ekam.example.api.UserTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldReturnSingleUser"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "suite",
+    "value" : "Gradle test"
+  }, {
+    "name" : "subSuite",
+    "value" : "ekam.example.api.UserTests"
+  }, {
+    "name" : "host",
+    "value" : "TestVagrants-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "14201@TestVagrants-MacBook-Pro.local.TestNG-test=Gradle test-2(19)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7de88ccff18b56e1.json",
+  "parameterValues" : [ ]
+}

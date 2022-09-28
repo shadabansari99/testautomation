@@ -1,0 +1,47 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Gradle suite",
+    "children" : [ {
+      "name" : "Gradle test",
+      "children" : [ {
+        "name" : "ekam.example.api.UserTests",
+        "children" : [ {
+          "name" : "shouldReturnSingleUser",
+          "uid" : "7de88ccff18b56e1",
+          "parentUid" : "3df1ec0dfd999b6ee0b17037cb6e0fd2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1664359103907,
+            "stop" : 1664359104925,
+            "duration" : 1018
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3df1ec0dfd999b6ee0b17037cb6e0fd2"
+      }, {
+        "name" : "ekam.example.api.CreateUser.CreateUserTests",
+        "children" : [ {
+          "name" : "shouldCreateUser",
+          "uid" : "aa3144f8469a0576",
+          "parentUid" : "39eed679a3b0f474febbcd80a382ba49",
+          "status" : "passed",
+          "time" : {
+            "start" : 1664359103907,
+            "stop" : 1664359105900,
+            "duration" : 1993
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "39eed679a3b0f474febbcd80a382ba49"
+      } ],
+      "uid" : "6edf7b6d6ec097775c478f55491c2a49"
+    } ],
+    "uid" : "350742de9190af4e6a560acc7ec0396c"
+  } ]
+}
